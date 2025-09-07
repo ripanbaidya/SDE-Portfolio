@@ -4,7 +4,7 @@ export const SkillsData = [
     category: "Frontend",
     skills: [
       { name: "HTML", link: "/skills/HTML.png" },
-      { name: "Tailwind", link: "/skills/Tailwind.png" },
+      { name: "Tailwind CSS", link: "/skills/Tailwind.png" },
       { name: "JavaScript", link: "/skills/JavaScript.png" },
       { name: "React", link: "/skills/React.png" },
       { name: "Vite", link: "/skills/Vite.png" },
