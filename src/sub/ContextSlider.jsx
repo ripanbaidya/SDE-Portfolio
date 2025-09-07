@@ -2,11 +2,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const contexts = [
-    "Transforming ideas into scalable full-stack solutions.",
-    "Java-powered backends with modern frontends for seamless apps.",
-    "Crafting end-to-end applications — from database to UI.",
-    "Full-stack expertise: Java, APIs, and responsive frontends.",
-    "Building robust and user-centric solutions for the modern web.",
+    "Hi, welcome to my portfolio",
+    "I build full-stack web applications",
+    "I work with Spring Boot, Microservices, and React",
+    "I build Cloud Native Applications",
+    "Reach out to me for Project, Collaboration, or Opportunities",
+    "Let's build Something great Together :)",
 ];
 
 
