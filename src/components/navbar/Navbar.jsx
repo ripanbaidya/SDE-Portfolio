@@ -140,11 +140,6 @@ const Navbar = ({ nav, handleNav }) => {
 							</li>
 						</Link>
 					</ul>
-					<div className='copy'>
-						<small className="copyright">
-  							© {new Date().getFullYear()} Ripan Baidya. All rights reserved.
-						</small>
-					</div>
 				</motion.div>
 			</motion.nav>
 		</AnimatePresence>
