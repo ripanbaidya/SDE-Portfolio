@@ -1,0 +1,167 @@
+/* Section wrapper */
+.works {
+	padding: 6rem 2rem;
+	background: var(--bg-color);
+}
+
+.heading {
+	text-align: center;
+	margin-bottom: 3rem;
+	font-weight: 700;
+}
+
+.heading-sub-text {
+	font-size: 1rem;
+	color: var(--nav-blue);
+	margin-bottom: 0.5rem;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.heading-text {
+	font-size: 2.2rem;
+	font-weight: 700;
+}
+
+/* Tabs */
+.tabs {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin-bottom: 3rem;
+}
+.tab {
+	padding: 0.6rem 1.2rem;
+	border-radius: 5px;
+	background: transparent;
+	color: var(--nav-grey);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+	font-weight: 400;
+	transition: all 0.3s ease;
+}
+.tab:hover {
+	background: rgba(54, 164, 211, 0.15);
+	border-color: var(--nav-blue);
+	color: var(--nav-blue);
+}
+.tab.active {
+	background: var(--nav-blue);
+	color: #fff;
+	border-color: var(--nav-blue);
+	font-weight: 500;
+}
+
+/* Works container */
+.works-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+/* Work card (mirrors services-card) */
+.work-card {
+	width: fit-content;
+	max-width: 300px;
+	margin: 0 auto;
+	cursor: pointer;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;   
+	align-items: center;       
+	text-align: center;
+
+	padding: 2rem;
+	border-radius: 5px;
+	transition: all 0.4s ease;
+}
+.work-card:hover {
+	box-shadow: inset 6px 6px 30px rgb(75, 75, 75);
+	border: none;
+}
+
+/* Title + description */
+.work-title {
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+.work-desc {
+	font-size: 0.8rem;
+	line-height: 1.5;
+	margin-bottom: 0.75rem;
+	max-width: 100%;
+}
+
+/* Tech tags */
+.work-tech {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	justify-content: center;
+	margin-top: 0.5rem;
+}
+.tech-tag {
+	font-size: 0.6rem;
+	font-weight: 500;
+	color: var(--nav-blue);
+	opacity: 0.9;
+	background: var(--bg-color);
+	padding: 2px 4px;
+	border-radius: 5px;
+	transition: all 0.2s ease;
+}
+.tech-tag:hover {
+	background: var(--nav-blue);
+	color: #fff;
+	opacity: 1;
+}
+
+/* Links */
+.work-links {
+	display: flex;
+	gap: 1rem;
+	margin-top: 0.75rem;
+	align-items: end;
+	width: 100%;
+	justify-content: flex-end; 
+}
+.work-links a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
+	transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.work-links a:hover {
+	color: var(--nav-blue);
+	opacity: 0.85;
+	transform: translateY(-2px) scale(1.05);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .work-card {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .work-title {
+    font-size: 1.2rem;
+  }
+  .work-desc {
+    font-size: 0.7rem;
+  }
+  .work-links a {
+    font-size: 0.85rem;
+  }
+  .work-tags small {
+    font-size: 0.65rem;
+  }
+}
